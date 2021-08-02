@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Павел Евтушенко, веб-разработчик</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;700&family=Roboto:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="wrapper">
+                <nav class="menu">
+                    <a href="#" class="header__logo">P<span>|</span>E</a>
+                    <ul class="header__list header__list1">
+                        <li class="header__list-item header__list-item1"><a href="#"
+                                class="header__list-link">Главная</a></li>
+                        <li class="header__list-item header__list-item2"><a href="#portfolio"
+                                class="header__list-link">Мои работы</a></li>
+                        <li class="header__list-item header__list-item3"><a href="#skills" class="header__list-link">Мои
+                                навыки</a></li>
+                        <li class="header__list-item header__list-item4"><a href="#contacts"
+                                class="header__list-link">Контакты</a></li>
+                    </ul>
+
+                    <img src="img/humburger.svg" alt="" class="menu__humburger">
+                    <img src="img/close.svg" alt="" class="menu__close">
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="promo">
+        <img src="img/Logo_color1.svg" alt="" class="promo__logo">
+        <div class="container">
+            <div class="wrapper">
+                <div class="promo__text">
+                    <h1 class="promo__title">
+                        Привет! Меня зовут <span>Павел Евтушенко.</span><br>Я веб-разработчик
+                    </h1>
+                    <h2 class="promo__subtitle">
+                        Я являюсь специалистом в своей сфере, опыт работы <span>более одного года</span>
+                    </h2>
+                    <div class="promo__btns">
+                        <a href="#portfolio" class="main_btn promo__portfolio-btn">Посмотреть портфолио</a>
+                        <a href="#contacts" class="main_btn promo__contacts">Связаться со мной</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="portfolio__title">Мои работы</h2>
+            <div id="slidr-img">
+                <a href="https://restaurants-bd.netlify.app/" target="_blank" data-slidr="one">
+                    <img class="portfolio_slide" src="img/restaurants_bd.png" /></a>
+                <a href="https://light-boost-rpg.netlify.app/" target="_blank" data-slidr="two">
+                    <img class="portfolio_slide" src="img/light-boost.png" /></a>
+                <a href="https://saasbusyness.netlify.app/" target="_blank" data-slidr="three"><img
+                        class="portfolio_slide" src="img/saas.png" /></a>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="wrapper">
+                <h2 class="skills__title">Мои навыки</h2>
+                <div class="skills__cards">
+                    <div class="skills__card">
+                        <img src="img/html.png" alt="" class="skills__card-img">
+                        <h4 class="skills__card-title">HTML</h4>
+                        <p class="skills__card-text">Что такое HTML? Это язык разметки гипертекста. Он позволяет
+                            создавать и структурировать разделы, параграфы, заголовки, ссылки и блоки для веб-страниц и
+                            приложений.<br><br>
+                            HTML не является языком программирования, то есть он не имеет возможности создавать
+                            динамические функции. Вместо этого он позволяет организовывать и форматировать документы,
+                            аналогично Microsoft Word.</p>
+
+                        <div class="line">
+
+                            <span class="subline"></span>
+                            <div class="percent">95%</div>
+                        </div>
+                    </div>
+                    <div class="skills__card">
+                        <img src="img/CSS.svg" alt="" class="skills__card-img">
+                        <h4 class="skills__card-title">CSS</h4>
+                        <p class="skills__card-text">CSS (Cascading Style Sheets, каскадные таблицы стилей) — язык
+                            описания внешнего вида HTML-документа. Это одна из базовых технологий в современном
+                            интернете. Практически ни один сайт не обходится без CSS, поэтому HTML и CSS действуют в
+                            единой связке.<br><br>
+                            С помощью CSS красиво оформляем существующий текст, то есть прописываем уникальные свойства
+                            элементам HTML.</p>
+
+                        <div class="line">
+
+                            <span class="subline"></span>
+                            <div class="percent">90%</div>
+                        </div>
+                    </div>
+                    <div class="skills__card">
+                        <img src="img/js.png" alt="" class="skills__card-img">
+                        <h4 class="skills__card-title">JavaScript</h4>
+                        <p class="skills__card-text">JavaScript — это язык программирования, который даёт возможность
+                            реализовывать сложное поведение веб-страницы.<br><br> Каждый раз, когда вы видите
+                            веб-страницу, она не только отображает статическое содержимое, но и делает большее -
+                            своевременно отображает обновление контента, выводит интерактивные карты, 2D/3D анимацию,
+                            прокручивает видео и т.д.</p>
+
+                        <div class="line">
+
+                            <span class="subline"></span>
+                            <div class="percent">70%</div>
+                        </div>
+                    </div>
+                    <div class="skills__card">
+                        <img src="img/gulp.png" alt="" class="skills__card-img">
+                        <h4 class="skills__card-title">GULP</h4>
+                        <p class="skills__card-text">Gulp - это инструмент, который помогает автоматизировать рутинные
+                            задачи веб-разработки. Gulp предназначен для решения таких задач, как:<br><br>
+                            Создание веб-сервера и автоматическая перезагрузка страницы в браузере при сохранении кода,
+                            слежение за изменениями в файлах проекта;<br><br>
+                            Использование различных JavaScript, CSS и HTML препроцессоров (CoffeeScript, Less, Sass,
+                            Stylus, Jade и т.д.);
+                        </p>
+
+                        <div class="line">
+
+                            <span class="subline"></span>
+                            <div class="percent">60%</div>
+                        </div>
+                    </div>
+                    <div class="skills__card">
+                        <img src="img/sass.png" alt="" class="skills__card-img">
+                        <h4 class="skills__card-title">Scss</h4>
+                        <p class="skills__card-text">SASS или же SCSS это препроцессор, который служит для быстрого
+                            написания CSS стилей. Благодаря SASS вы можете добавить переменные, функции, наследование и
+                            многое другое к обычному документу CSS.<br><br>
+                            Весь код Sass/SCSS компилируется в CSS, чтобы браузеры могли его понимать и корректно
+                            отображать. В настоящее время браузеры не поддерживают работу с Sass/SCSS
+                        </p>
+
+                        <div class="line">
+
+                            <span class="subline"></span>
+                            <div class="percent">90%</div>
+                        </div>
+                    </div>
+                    <div class="skills__card">
+                        <img src="img/git.png" alt="" class="skills__card-img">
+                        <h4 class="skills__card-title">GitHub</h4>
+                        <p class="skills__card-text">GitHub — крупнейший веб-сервис для хостинга IT-проектов и их
+                            совместной разработки.<br><br>
+                            Веб-сервис основан на системе контроля версий Git. Сервис бесплатен для проектов с открытым
+                            исходным кодом.<br><br>
+                            Системы контроля версий позволяют разработчикам сохранять все изменения, внесённые в код.
+                            При возникновении проблем они могут просто откатить код до рабочего состояния и не тратить
+                            часы на поиски ошибок.
+                        </p>
+
+                        <div class="line">
+
+                            <span class="subline"></span>
+                            <div class="percent">85%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h2 class="contacts__title">Связаться со мной</h2>
+                <div class="contacts__inner">
+                    <a href="tg://resolve?domain=stclamp" target="_blank" class="contacts__social"><svg
+                            aria-hidden="true" focusable="false" data-prefix="fab" data-icon="telegram"
+                            class="svg-inline--fa fa-telegram fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 496 512">
+                            <path fill="currentColor"
+                                d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z">
+                            </path>
+                        </svg></a>
+                    <a href="https://www.facebook.com/evtushenko.pavel1993" target="_blank"
+                        class="contacts__social"><svg aria-hidden="true" focusable="false" data-prefix="fab"
+                            data-icon="facebook" class="svg-inline--fa fa-facebook fa-w-16" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                                d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z">
+                            </path>
+                        </svg></a>
+                    <a href="https://www.instagram.com/evtushenko__pavel" target="_blank" class="contacts__social"><svg
+                            aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
+                            class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512">
+                            <path fill="currentColor"
+                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                            </path>
+                        </svg></a>
+                    <a href="mailto:pavel.evtushenko.dev@gmail.com" class="contacts__social"><svg aria-hidden="true"
+                            focusable="false" data-prefix="fas" data-icon="envelope"
+                            class="svg-inline--fa fa-envelope fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                                d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+                            </path>
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <script>
+        let v = new Validator({
+
+        });
+    </script> -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
