@@ -46,7 +46,6 @@ const wrapper = document.querySelector('.promo .wrapper');
 const menuItems = document.querySelectorAll('.header__list-link');
 const headerLogo = document.querySelector('.header__logo');
 
-console.log(window.screen.width)
 
 function toggleBurgerMenu() {
   menuLinks.forEach(item => {
@@ -81,7 +80,6 @@ menuClose.addEventListener('click', () => {
 })
 
 const width = document.documentElement.scrollWidth;
-console.log(width)
 
 menuItems.forEach(item => {
   item.addEventListener('click', () => {
