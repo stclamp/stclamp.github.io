@@ -46,18 +46,24 @@ const wrapper = document.querySelector('.promo .wrapper');
 const menuItems = document.querySelectorAll('.header__list-link');
 const headerLogo = document.querySelector('.header__logo');
 
+console.log(window.screen.width)
 
 function toggleBurgerMenu() {
   menuLinks.forEach(item => {
-    item.classList.toggle('hidden');
-    item.classList.toggle('bg');
+    if(window.screen.width >= 768) {
+      item.classList.remove('hidden');
+      item.classList.remove('bg');
+    } else {
+      item.classList.toggle('hidden');
+      item.classList.toggle('bg');
+    }
   });
   // menu.classList.toggle('bg');
   headerLogo.classList.toggle('wt');
 }
 
 headerLogo.addEventListener('click', () => {
-  toggleBurgerMenu();
+  // toggleBurgerMenu();
   menuBtn.style.display = 'block';
   menuClose.style.display = 'none';
 });
@@ -74,11 +80,20 @@ menuClose.addEventListener('click', () => {
   menuClose.style.display = 'none';
 })
 
+const width = document.documentElement.scrollWidth;
+console.log(width)
+
 menuItems.forEach(item => {
   item.addEventListener('click', () => {
     toggleBurgerMenu();
-    menuBtn.style.display = 'block';
-    menuClose.style.display = 'none';
+    if(width > 768){
+      menuBtn.style.display = 'none';
+      menuClose.style.display = 'none';
+    } else if(width < 768) {
+      menuBtn.style.display = 'block';
+      menuClose.style.display = 'none';
+    }
+   
   });
 });
 
